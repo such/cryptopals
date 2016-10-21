@@ -210,10 +210,3 @@ func AESDecrypt(ciphertext []byte, key string) []byte {
 	}
 	return finalplaintext[:len(finalplaintext)-5]
 }
-
-func DetectAESinECBMode(ciphertexts []strings) string {
-
-	for cyphertext := range ciphertexts {
-
-	}
-}
